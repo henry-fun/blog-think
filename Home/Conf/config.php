@@ -1,6 +1,17 @@
 <?php
 return array(
-    
+    /**
+    * 配置数据库
+    *
+    */
+    'DB_TYPE'   => 'mysql',
+    'DB_HOST'   => 'localhost',
+    'DB_NAME'   => 'blog',
+    'DB_USER'   => 'root',
+    'DB_PWD'    => '123456',
+    'DB_PORT'   => '3307',
+    'DB_PREFIX' => 'blog_',
+ 
 	/**
 	 * 启用前后端分开的模块分组模式
 	 * 关于模块分组详见API——“5.控制器/模块分组” 

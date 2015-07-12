@@ -1,3 +1,8 @@
 <?php
-error_reporting(E_USER_WARNING | E_USER_NOTICE);
+
+function p($arr) {
+    echo "<pre>".print_r($arr,true)."</pre>";
+}
+
+
 ?>

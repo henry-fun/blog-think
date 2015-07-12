@@ -1,0 +1,32 @@
+/* 登陆样式 */
+body {
+	font-family: "微软雅黑";
+}
+.login {
+	margin: 0 auto;
+}
+.login .logo {
+	display: block;
+	height: 100px;
+	margin: 50px;
+	background: url(../Images/logo.jpg) no-repeat center center;
+	background-size: 25% 100%;
+}
+.login .form-wrap {
+	width: 350px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ddd;
+	box-shadow: 2px 3px 2px #ddd;
+}
+.login .form {
+	
+	
+}
+.login .btn {
+	width: 100%;
+	border-radius: 0;
+}
+.form-control {
+	display: inline-block;
+}
